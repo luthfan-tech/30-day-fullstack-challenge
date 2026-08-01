@@ -1,12 +1,37 @@
 # Day 1 Theory – HTML Structure
 
 What is HTML?
-HTML = HyperText Markup Language
-It is the skeleton of every website. It only describes structure and content. It does not style or make things interactive.
+HTML stands for HyperText Markup Language.
+It is the skeleton of every website. HTML only describes structure and content. It does not style the page or make it interactive.
 
-# Semantic HTML (Most Important Concept Today)
+# Semantic HTML
 Semantic tags tell the browser and developers what the content actually means.
 
-|Tag |Meaning | Why we use it |
-|<header> |Top section of the page | Logo, name, navigation |
-|<nav> | Navigation | linksMenu |
+<header> → Top section of the page, used for logo, name, navigation
+<nav> → Navigation links, used for menus
+<main> → Main content of the page, the important part
+<section> → A thematic group of content, used for About, Skills, Projects, etc.
+<footer> → Bottom of the page, used for copyright and links
+<h1> to <h6> → Headings, used for hierarchy
+<p> → Paragraph, used for text blocks
+<ul> and <li> → Unordered list, used for skills or project lists
+<a> → Link, used for navigation and external links
+
+# Non-semantic tags like <div> and <span> have no meaning.
+We avoid them when a semantic tag exists.
+
+# Why Structure Matters:
+1.Better for SEO, because Google understands your page more easily
+2.Better for accessibility, because screen readers can understand the layout
+3.Easier to style later with CSS
+4.Cleaner and more professional code
+5.Quick Rules You Should Remember
+6.Use only one <h1> per page, usually your name
+7.Use <section> for major parts of the page
+8.Always put content inside proper tags
+9.Keep your code indented properly for readability
+10.Every opening tag needs a closing tag
+
+What I Did Today:
+I created the skeleton of a real portfolio using proper semantic HTML.
+That is the correct foundation.
