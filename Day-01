@@ -7,4 +7,6 @@ It is the skeleton of every website. It only describes structure and content. It
 # Semantic HTML (Most Important Concept Today)
 Semantic tags tell the browser and developers what the content actually means.
 
-TagMeaningWhy we use it<header>Top section of the pageLogo, name, navigation<nav>Navigation linksMenu<main>Main content of the pageThe important part<section>A thematic group of contentAbout, Skills, Projects etc.<footer>Bottom of the pageCopyright, links<h1>–<h6>HeadingsHierarchy (only one <h1>)<p>ParagraphText<ul> + <li>Unordered listSkills, projects list<a>LinkNavigation
+|Tag |Meaning | Why we use it |
+|<header> |Top section of the page | Logo, name, navigation |
+|<nav> | Navigation | linksMenu |
