@@ -1,1 +1,99 @@
+# Day 2 — CSS Basics + Linux
 
+## Part 1 — CSS
+
+### 1. Universal Selector + Reset
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
+
+- `*` targets every element
+- Removes default browser margin and padding
+- `box-sizing: border-box` keeps padding and border inside the width
+
+### 2. Body Styling
+```css
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+```
+
+- Sets default font for the whole page
+- `line-height: 1.6` makes text easier to read
+- Light gray background and dark text
+
+### 3. Header + Flexbox
+```css
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+```
+
+- `display: flex` makes the header a flexible container
+- `justify-content: space-between` pushes name to the left and links to the right
+- `align-items: center` vertically centers items
+
+This is the most important concept today.
+
+### 4. Navigation Links
+```css
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+```
+
+- Removes underline from links
+- Adds space between links
+- `:hover` changes color when the mouse is over the link
+
+### 5. Main Content Centering
+```css
+main {
+  max-width: 900px;
+  margin: 40px auto;
+}
+```
+
+- Limits width so it doesn’t stretch too wide on big screens
+- `margin: 40px auto` centers the content horizontally
+
+### 6. Section Cards
+```css
+section {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+```
+
+- White background creates a card effect
+- Padding = space inside
+- Margin = space outside
+- Border-radius = rounded corners
+
+### 7. Footer
+Simple centered text with a dark background.
+
+### Core CSS Ideas
+- Margin = space outside the element
+- Padding = space inside the element
+- Flexbox = best way to align items in a row
+- Hover = interactive state
+
+---
