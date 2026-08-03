@@ -1,0 +1,47 @@
+# Day 3 — Responsive CSS
+
+## 1. Media Queries
+Media queries are used to make a website look good on different screen sizes.
+
+```css
+@media (max-width: 768px) {
+  /* CSS for mobile */
+}
+```
+
+- `max-width: 768px` means the styles apply when the screen is 768px or smaller.
+- This is a common breakpoint for mobile layouts.
+
+## 2. Changing Flex Direction
+```css
+header {
+  flex-direction: column;
+}
+```
+
+On mobile, header items stack vertically instead of staying in a row.
+
+## 3. Transition
+```css
+transition: color 0.3s ease;
+```
+
+A transition makes hover effects smooth instead of sudden.
+
+- `0.3s` = duration
+- `ease` = speed style
+
+## 4. Important Responsive Ideas
+- Always test using browser DevTools and mobile view.
+- Use `flex-direction: column` for mobile layouts.
+- Reduce padding and margin on small screens.
+- Keep text readable on all devices.
+
+## 5. Best Practice
+Write desktop CSS first, then add media queries for mobile.
+
+## Core Formula So Far
+- HTML → Structure
+- CSS → Design
+- Flexbox → Alignment
+- Media Query → Responsive
