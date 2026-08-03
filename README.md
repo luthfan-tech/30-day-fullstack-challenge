@@ -19,8 +19,8 @@ Building real full-stack skills in 30 days with maximum practical output.
 ## Daily Progress
 | Day | Topic | Status | Commit |
 |-----|-------|--------|--------|
-| 01  | HTML Basics + Portfolio Structure | ⏳ | - |
-| 02  | ... | ⏳ | - |
+| 01  | HTML Basics + Portfolio Structure | ⏳ | Done |
+| 02  | ... | ⏳ | Done |
 
 ## How to Follow
 - Code every day
