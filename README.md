@@ -2,30 +2,35 @@
 
 First-year CSE student | Starting August 1, 2026
 
-Building real full-stack skills in 30 days with maximum practical output.
+Building strong full-stack foundations in 30 days with a practical, day-by-day approach.
 
 ## Goal
-- Learn HTML, CSS, JavaScript, React, Node.js, Express & MongoDB
-- Ship portfolio projects
-- Maintain a meaningful GitHub streak
+- Learn HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, networking, and databases.
+- Build real projects and improve problem-solving.
+- Maintain a consistent and meaningful GitHub streak.
 
 ## Tech Stack
 - Frontend: HTML, CSS, JavaScript, React
 - Backend: Node.js, Express
-- Database: MongoDB
-- Tools: VS Code, Git, Vercel, Render, MongoDB Atlas
-
+- Database: MongoDB, SQL basics
+- Foundations: Linux, networking, CS basics
+- Tools: VS Code, Git, GitHub, Vercel, Render, MongoDB Atlas
 
 ## Daily Progress
 | Day | Topic | Status | Commit |
 |-----|-------|--------|--------|
-| 01  | HTML Basics + Portfolio Structure | ⏳ | Done |
-| 02  | ... | ⏳ | Done |
+| 01  | Linux Basics + GitHub Setup | ✅ | Done |
+| 02  | HTML Basics + Portfolio Structure | ✅ | Done |
+| 03  | Responsive CSS | ✅ | Done |
+| 04  | - | ⏳ | Pending |
+| 05  | - | ⏳ | Pending |
 
 ## How to Follow
-- Code every day
-- Push meaningful commits daily
-- Update this README with progress
+- Code every day.
+- Push meaningful commits daily.
+- Update this README with progress.
+- Keep notes short, clean, and consistent.
+- Focus on progress, not perfection.
 
 ---
 
