@@ -1,1 +1,22 @@
-D
+Part - 01
+
+##Day 7 Notes (Important Only)
+**1. Events:
+-Events are actions that happen on the webpage (click, scroll, keypress, etc.)
+
+**2. Click Event:
+'''
+element.addEventListener("click", function() {
+  // code here
+});
+'''
+-Waits for the user to click
+-Then runs the code inside
+
+**3. Important Rules
+-ID must be unique (only one element with the same id)
+-Never declare the same const variable twice
+-querySelector selects the first matching element
+
+##Key Point:
+addEventListener is the main way to make buttons interactive.
